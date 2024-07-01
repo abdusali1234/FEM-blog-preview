@@ -21,8 +21,8 @@ body {
     align-items: center;
     background-color: var(--white);
     border-radius: 2em;
-    width: 384px;
-    height: 522px;
+    width: 327px;
+    height: 501px;
     box-shadow: 10px 10px;
 }
 
@@ -33,6 +33,8 @@ body {
 
 #illustration {
     border-radius: 1em;
+    height: 200px;
+    width: 279px;
 }
 
 .post {
@@ -45,11 +47,11 @@ body {
 
 .post-category {
     display: inline-flex;
-    width: 82px;
-    height: 29px;
-    border-radius: 0.5em;;
+    width: 73px;
+    height: 26px;
+    border-radius: 0.25em;;
     background-color: var(--yellow);
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     font-weight: 800;
 }
@@ -70,6 +72,10 @@ body {
 }
 p {
     font-size: 16px;
+}
+
+.author-name {
+    font-weight: bold;
 }
 
 footer {
